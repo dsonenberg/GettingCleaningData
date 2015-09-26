@@ -13,3 +13,4 @@
 * Split data into a list based on subject and activity
 * Calculate mean for each variable and place into new data table
 * Write data to a text file
+* Note that unused variables for a row are filled with NA's
