@@ -2,8 +2,10 @@
 ## All listed variables are expressed as a means (except Activity, Subject and Mode) of all reading for a particular subject for a particular activity
 ## Variables starting with "t" are time based measurements and were captured at 50 Hz
 ## Body or Gravity indicate they signals were further filtered for one or the other
-## Acc indicates a measurement of acceleration
+## Acc indicates a measurement was taken by an acceromemeter
 ## XYZ indicated the three axises of measurements
+## mean indicates a mean value
+## std indicates a stardard deviation value
 * tBodyAcc.mean...Y
 * tBodyAcc.mean...Z
 * tBodyAcc.std...X
@@ -23,6 +25,8 @@
 * tBodyAccJerk.std...X
 * tBodyAccJerk.std...Y
 * tBodyAccJerk.std...Z
+
+## Gyro indicates meaurement was take using a gyroscope
 * tBodyGyro.mean...X
 * tBodyGyro.mean...Y
 * tBodyGyro.mean...Z
