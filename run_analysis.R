@@ -43,9 +43,6 @@ exportdata <- rbind(testdata[cname.bound],traindata[cname.bound])
 # Replace Activity Codes with human readable labels
 exportdata[["Activity"]] <- actlabels[match(exportdata[['Activity']],actlabels[['Activity']]), "Label"]
 
-# Export data set
-write.table(exportdata,file="part4.txt",row.names = FALSE)
-
 # Create list for subsetted data
 sortbylist <- (list(exportdata$Subject,exportdata$Activity))
 # Split data into list by Subject and Activity
