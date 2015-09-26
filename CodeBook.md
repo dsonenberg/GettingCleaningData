@@ -1,11 +1,11 @@
 # Human Activity Recognition Using Smartphones Data Set Code Book
 ## All listed variables are expressed as a means (except Activity, Subject and Mode) of all reading for a particular subject for a particular activity
 ## Variables starting with "t" are time based measurements and were captured at 50 Hz
-## Body or Gravity indicate they signals were further filtered for one or the other
-## Acc indicates a measurement was taken by an acceromemeter
-## XYZ indicated the three axises of measurements
-## mean indicates a mean value
-## std indicates a stardard deviation value
+## "Body" or "Gravity" indicate they signals were further filtered for one or the other
+## "Acc" indicates a measurement was taken by an acceromemeter
+## "X", "Y" or "Z" indicated the three axises of measurements
+## "mean" indicates a mean value
+## "std" indicates a stardard deviation value
 * tBodyAcc.mean...Y
 * tBodyAcc.mean...Z
 * tBodyAcc.std...X
@@ -18,7 +18,7 @@
 * tGravityAcc.std...Y
 * tGravityAcc.std...Z
 
-## AccJerk indicates a derivation of body linear acceleration and angular velocity 
+## "AccJerk" indicates a derivation of body linear acceleration and angular velocity 
 * tBodyAccJerk.mean...X
 * tBodyAccJerk.mean...Y
 * tBodyAccJerk.mean...Z
@@ -26,7 +26,7 @@
 * tBodyAccJerk.std...Y
 * tBodyAccJerk.std...Z
 
-## Gyro indicates meaurement was take using a gyroscope
+## "Gyro" indicates meaurement was take using a gyroscope
 * tBodyGyro.mean...X
 * tBodyGyro.mean...Y
 * tBodyGyro.mean...Z
@@ -41,7 +41,7 @@
 * tBodyGyroJerk.std...Z
 
 
-## Mag indicates the magnitude of the signal and do not have a directional component associated
+## "Mag" indicates the magnitude of the signal and do not have a directional component associated
 * tBodyAccMag.mean..
 * tBodyAccMag.std..
 * tGravityAccMag.mean..
@@ -94,11 +94,11 @@
 * fBodyBodyGyroJerkMag.std..
 * fBodyBodyGyroJerkMag.meanFreq..
 
-## Activity indicates which of the 6 possible activities was measured
+## "Activity" indicates which of the 6 possible activities was measured
 * Activity
 
-## Subject indicates the ID number of the subjects. Possible values are 1 to 30
+## "Subject" indicates the ID number of the subjects. Possible values are 1 to 30
 * Subject
 
-## Mode indicates which dataset the measurement is taken from. Possible values are test or train
+## "Mode" indicates which dataset the measurement is taken from. Possible values are test or train
 * Mode
