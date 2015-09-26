@@ -15,6 +15,7 @@
 * tGravityAcc.std...X
 * tGravityAcc.std...Y
 * tGravityAcc.std...Z
+
 ## AccJerk indicates a derivation of body linear acceleration and angular velocity 
 * tBodyAccJerk.mean...X
 * tBodyAccJerk.mean...Y
@@ -34,6 +35,8 @@
 * tBodyGyroJerk.std...X
 * tBodyGyroJerk.std...Y
 * tBodyGyroJerk.std...Z
+
+
 ## Mag indicates the magnitude of the signal and do not have a directional component associated
 * tBodyAccMag.mean..
 * tBodyAccMag.std..
@@ -45,6 +48,7 @@
 * tBodyGyroMag.std..
 * tBodyGyroJerkMag.mean..
 * tBodyGyroJerkMag.std..
+
 ## Variables starting with an "f" indicated that the Fast Fourier Transform was applied
 * fBodyAcc.mean...X
 * fBodyAcc.mean...Y
@@ -85,9 +89,12 @@
 * fBodyBodyGyroJerkMag.mean..
 * fBodyBodyGyroJerkMag.std..
 * fBodyBodyGyroJerkMag.meanFreq..
+
 ## Activity indicates which of the 6 possible activities was measured
 * Activity
+
 ## Subject indicates the ID number of the subjects. Possible values are 1 to 30
 * Subject
+
 ## Mode indicates which dataset the measurement is taken from. Possible values are test or train
 * Mode
